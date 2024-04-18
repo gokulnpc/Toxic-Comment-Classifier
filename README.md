@@ -1,0 +1,3 @@
+# Toxic Comment Classification using Deep Neural Networks
+
+This project employs a deep neural network architecture for the classification of toxic comments, utilizing the Kaggle competition dataset from the Jigsaw Toxic Comment Classification Challenge. The model incorporates an embedding layer to convert text into dense vectors, followed by a bidirectional LSTM layer to capture long-term dependencies in the comment sequences. Feature extraction is performed using multiple dense layers, culminating in a final output layer that predicts the probabilities of six toxicity categories: toxic, severe toxic, obscene, threat, insult, and identity hate. 
